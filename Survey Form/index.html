@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<link href='styles.css' rel='stylesheet' type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div class='cabecalho'>
+<h1 id='title'>Encomenda de carros GM</h1>
+<p id='description'>Preencha para pedir seu GM</p>
+<br>
+</div>
+<form id='survey-form'>
+
+  <label for='name' id='name-label'>Nome</label>
+  <input id='name' type='text' name='name' placeholder='Your name' required></input>
+  <br>
+  <label for='email' id='email-label'>Email</label>
+  <input id='email' type='email' name='email' placeholder='youremail@net.com' required></input>
+  <br>
+  <label for='number' id='number-label'>Idade</label>
+  <input id='number' type='number' name='number' placeholder='Idade' required min='13' max='120'></input>
+  <br>
+
+<label for='dropdown'>Selecione um modelo</label>
+  <select id='dropdown'>
+    <option value='onix'>Onix</option>
+    <option value='tracker'>Tracker</option>
+    <option value='cruze'>Cruze</option>
+    <option value='equinox'>Equinox</option>        
+  </select>
+  <br>
+
+<label for='motorizacao' id='motorizacao'><br>Selecione o tipo de motorização<br></label>
+<input type='radio' id='motorizacao' id='turbo' name='motor' value='turbo'></input>
+<label for='motorizacao'>Turbo</label>
+<br>
+<input type='radio' id='motorizacao' id='aspirado' name='motor' value='aspirado' checked></input>
+<label for='motorizacao'>Aspirado</label>
+<br>
+
+<label for='checkbox' id='adicionais'><br>Selecione os adicionais<br></label>
+<input id='checkbox' type='checkbox' name='Banco de Couro' value='couro'></input>
+
+<label for='checkbox'>Banco de Couro</label>
+<br>
+<input id='checkbox' type='checkbox' name='dualzone' value='dualzone'></input>
+<label for='checkbox'>Ar DualZone</label>
+<br>
+<input id='checkbox' type='checkbox' name='automatico' value='automático'></input>
+<label for='checkbox'>Cambio Automático</label>
+<br>
+<br>
+<label for='textarea'>Adicione Comentários</label><br>
+<textarea id='textarea' name='textarea' rows='5' cols='40' placeholder='Escreva aqui'></textarea>
+<br>
+<br>
+<input type='submit' id='submit' value='Formalizar pedido'>
+</form>
+</body>
+</html>

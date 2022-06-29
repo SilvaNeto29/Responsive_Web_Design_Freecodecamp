@@ -1,0 +1,22 @@
+*{
+    margin: 0 auto;
+  }
+  
+  body{
+    background-image: url('https://wallpaperaccess.com/full/1778652.jpg');
+    background-size: 100%;
+    background-color: #ffffff;
+    font-family: 'Anek Latin', sans-serif;
+    line-height: 1.5;
+    width: 550px;
+    margin: auto;
+  }
+
+  #survey-form{
+    color: rgb(0, 0, 0);
+    background-color: rgba(201, 212, 230, 0.9) ;
+    border-radius:  7px;
+    padding: 20px;
+    
+  }
+  
