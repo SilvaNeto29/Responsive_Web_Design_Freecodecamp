@@ -1,22 +1,16 @@
 *{
     margin: 0 auto;
   }
-  
-  body{
-    background-image: url('https://wallpaperaccess.com/full/1778652.jpg');
-    background-size: 100%;
-    background-color: #ffffff;
-    font-family: 'Anek Latin', sans-serif;
-    line-height: 1.5;
-    width: 550px;
-    margin: auto;
+
+body{
+  color: white;
+  background-image: url(https://cdn.autopapo.com.br/box/uploads/2018/04/10162146/2019-chevrolet-camaro-ss.jpg);
+  background-color: #ffff;
+  background-position: center center;
+  background-size: cover;
+  background-repeat:  no-repeat;
   }
 
   #survey-form{
-    color: rgb(0, 0, 0);
-    background-color: rgba(201, 212, 230, 0.9) ;
-    border-radius:  7px;
-    padding: 20px;
-    
+    margin: 0 auto;
   }
-  
