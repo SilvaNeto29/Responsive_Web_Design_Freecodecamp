@@ -1,16 +1,19 @@
 *{
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+}
 
 body{
-  color: white;
-  background-image: url(https://cdn.autopapo.com.br/box/uploads/2018/04/10162146/2019-chevrolet-camaro-ss.jpg);
-  background-color: #ffff;
-  background-position: center center;
-  background-size: cover;
-  background-repeat:  no-repeat;
-  }
+color: white;
+background-image: url(https://cdn.autopapo.com.br/box/uploads/2018/04/10162146/2019-chevrolet-camaro-ss.jpg);
+background-color: #ffff;
+background-position: center center;
+background-size: cover;
+background-repeat:  no-repeat;
+}
 
-  #survey-form{
-    margin: 0 auto;
-  }
+#survey-form{
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  background-color: black;
+}
